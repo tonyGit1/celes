@@ -1,9 +1,5 @@
 ## Contenu de la case
 # label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libellé%</i>
-# stylename:OF_de_pointage 
-# styles: {"Indéterminé":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#666666;",\
-# "Coché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#9900CC;strokeWidth=5;",\
-# "Décoché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#666666;"}
 ##
 # namespace: csvimport-
 # connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
