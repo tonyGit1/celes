@@ -1,0 +1,57 @@
+## Contenu de la case
+# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libellé%</i>
+##
+#stylename: Atelier
+# styles: {"CAB": "fillColor=#D5E8D4;strokeColor=#666666;dashed=0;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;", 
+"BRA": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#FFE6CC;strokeColor=#666666;","MON": "aspect=fixed;html=1;align=center;fontSize=12;fillColor=#DAE8FC;strokeColor=#666666;","Coché": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#2E73B8;","Décoché": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#D2D3D3;"}
+# namespace: csvimport-
+# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
+# left: 
+# top: 
+# width: auto
+# height: auto
+# padding: 0
+# ignore:
+# link: url
+# nodespacing: 30
+# levelspacing: 80
+# edgespacing: 20
+## Name or JSON of layout. Possible values are auto, none, verticaltree, horizontaltree,verticalflow, horizontalflow, organic, circle or a JSON string as used in Layout, Apply.Default is auto.
+# layout: horizontalflow
+## ---- CSV below this line. First line are column names. ----
+﻿Mq,Ordre_de_fabrication,Article,Référence_document,Libellé,Stade,Type,OF_Pere,Atelier,Dépôt,Date_de_début_demandée,Date_de_fin_demandée,Date_de_début__actuelle_jalonnée,Date_de_fin_actuelle_jalonnée,Quantité_lancée_théorique,Quantité_nette_théorique,Quantité_lancée_réelle,Quantité_nette_réalisée,Quantité_de_rebut_réalisée,Quantité_de_perte_réalisée,Complet_pour_Fab,Fabrication_en_cours,Fabrication_terminée,OF_de_pointage
+,13223,1047107,20038C02,CABLE COFFRET-GENE 20038,Lancé,O.F. Normal,13189,CAB,101,,9/7/2021,9/7/2021,9/7/2021,"8,000","8,000",,,,,Décoché,Indéterminé,Indéterminé,Indéterminé
+,13190,0000020038C02,20038C02,Coffret 3 Zones n°C7703 complément 1,Lancé,O.F. Normal,,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+6,13189,20038C01-0001,20038C02,Coffret,Figé (édité),O.F. Normal,13190,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+2,13188,B000000765563,20038C02,Porte ouvrant à droite,Figé (édité),O.F. Normal,13189,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+3,13187,B000000765554,20038C02,Capot latéral,Figé (édité),O.F. Normal,13189,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+3,13186,B000000765496,20038C02,Capot arrière,Figé (édité),O.F. Normal,13189,,101,,9/7/2021,9/7/2021,9/7/2021,"2,000","2,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+4,13185,20038C01-0002,20038C02,Sous ensemble coffret sans capots,Lancé,O.F. Normal,13189,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+5,13184,20038C01-0040,20038C02,Module 1 zone,Figé (édité),O.F. Normal,13185,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13183,20038C01-0076,20038C02,Plaque capas/inducteur équipée,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13182,B000000772337,20038C02,Plage de raccordement thyristors/capas,Figé (édité),O.F. Normal,13183,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13181,B000000761504,20038C02,Plaque capas/inducteur,Figé (édité),O.F. Normal,13183,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13180,20038C01-0077,20038C02,Plages Tansfo/Inducteur,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13179,B000000761651,20038C02,Plages Transfo/Inducteur,Figé (édité),O.F. Normal,13180,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+1,13178,20038C01-0110,20038C02,Connexion 0V isolée,Lancé,O.F. Normal,13185,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13177,20038C01-0100,20038C02,Platine automatisme,Lancé,O.F. Normal,13185,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+1,13176,B000000761711,20038C02,Connexion 0V,Figé (édité),O.F. Normal,13178,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13175,20038C01-0111,20038C02,Connexion plots équipée,Lancé,O.F. Normal,13185,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13174,B000000761773,20038C02,Connexion plots transfo,Figé (édité),O.F. Normal,13175,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13173,20038C01-0330,20038C02,Collecteur de sortie,Lancé,O.F. Normal,13185,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13172,20038C01-0320,20038C02,Collecteur dentrée,Lancé,O.F. Normal,13185,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Décoché,Indéterminé,Indéterminé,Indéterminé
+1,13169,20038C01-0230,20038C02,Porte ouvrant à droite,Figé (édité),O.F. Normal,13189,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13168,20038C01-0050,20038C02,Structure,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Indéterminé,Indéterminé
+,13167,B000000761453,20038C02,Plaque TI/capas,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Indéterminé,Indéterminé
+,13166,20038C01-0060,20038C02,Tansfo  équipé,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13165,B000000761523,20038C02,Plages transfo/TI,Lancé,O.F. Normal,13166,,101,,23/04/2021,19/05/2021,19/05/2021,"3,000","3,000",,,,,Coché,Indéterminé,Coché,Indéterminé
+,13164,B000000758754,20038C02,"Primaire transfo 8,9,10,11,12",Lancé,O.F. Normal,13166,,101,,23/04/2021,23/04/2021,23/04/2021,"3,000","3,000",,,,,Coché,Indéterminé,Coché,Indéterminé
+,13162,20038C01-0075,20038C02,Connexions plots transfo/thyristors,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,13161,20038C01-0070,20038C02,Condensateur équipé,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"6,000","6,000",,,,,Coché,Indéterminé,Indéterminé,Indéterminé
+,13159,B000000763835,20038C02,Plage thyrisor/connexion 2,Lancé,O.F. Normal,13162,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Coché,Indéterminé
+,13158,B000000763823,20038C02,Plage thyrisor/transfo-1,Lancé,O.F. Normal,13162,,101,,23/04/2021,19/05/2021,19/05/2021,"3,000","3,000",,,,,Coché,Indéterminé,Coché,Indéterminé
+,13157,B000000762649,20038C02,Plage thyrisor/transfo-2,Lancé,O.F. Normal,13162,,101,,23/04/2021,19/05/2021,19/05/2021,"3,000","3,000",,,,,Coché,Indéterminé,Coché,Indéterminé
+,13156,B000000762581,20038C02,Plage thyrisor/connexion 1,Lancé,O.F. Normal,13162,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Coché,Indéterminé
+,13155,20038C01-0080,20038C02,Platine électronique,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Indéterminé,Indéterminé
+,13154,20038C01-0085,20038C02,Boitier mesure de puissance,Figé (édité),O.F. Normal,13155,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Indéterminé,Indéterminé
+,13152,20038C01-0095,20038C02,Commande thyristor,Lancé,O.F. Normal,13184,,101,,9/7/2021,9/7/2021,9/7/2021,"3,000","3,000",,,,,Coché,Indéterminé,Décoché,Indéterminé
