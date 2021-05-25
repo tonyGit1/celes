@@ -5,11 +5,6 @@
 # "Coché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#9900CC;strokeWidth=5;",\
 # "Décoché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#666666;"}
 ##
-# vars: -
-# labelname: -
-# labels: -
-# identity: -
-# parent: -
 # namespace: csvimport-
 # connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
 # left: 
