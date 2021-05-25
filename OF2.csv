@@ -2,7 +2,7 @@
 # label: %Ordre_de_fabrication%
 ##
 # namespace: csvimport-
-# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
+# connect: {"from": "OF_Père", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
 # left: 
 # top: 
 # width: auto
@@ -16,7 +16,7 @@
 ## Name or JSON of layout. Possible values are auto, none, verticaltree, horizontaltree,verticalflow, horizontalflow, organic, circle or a JSON string as used in Layout, Apply.Default is auto.
 # layout: horizontalflow
 ## ---- CSV below this line. First line are column names. ----
-﻿Mq,Ordre_de_fabrication,Article,Référence_document,Libellé,Stade,Type,OF_Pere,Atelier,Dépôt,Date_de_début_demandée,Date_de_fin_demandée,Date_de_début__actuelle_jalonnée,Date_de_fin_actuelle_jalonnée,Quantité_lancée_théorique,Quantité_nette_théorique,Quantité_lancée_réelle,Quantité_nette_réalisée,Quantité_de_rebut_réalisée,Quantité_de_perte_réalisée,Complet_pour_Fab,Fabrication_en_cours,Fabrication_terminée,OF_de_pointage
+﻿Mq,Ordre_de_fabrication,Article,Référence_document,Libellé,Stade,Type,OF_Père,Atelier,Dépôt,Date_de_début_demandée,Date_de_fin_demandée,Date_de_début__actuelle_jalonnée,Date_de_fin_actuelle_jalonnée,Quantité_lancée_théorique,Quantité_nette_théorique,Quantité_lancée_réelle,Quantité_nette_réalisée,Quantité_de_rebut_réalisée,Quantité_de_perte_réalisée,Complet_pour_Fab,Fabrication_en_cours,Fabrication_terminée,OF_de_pointage
 ,13223,1047107,20038C02,CABLE COFFRET-GENE 20038,Lancé,O.F. Normal,13189,CAB,101,,9/7/2021,9/7/2021,9/7/2021,"8,000","8,000",,,,,Décoché,Indéterminé,Indéterminé,Indéterminé
 ,13190,0000020038C02,20038C02,Coffret 3 Zones n°C7703 complément 1,Lancé,O.F. Normal,,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
 6,13189,20038C01-0001,20038C02,Coffret,Figé (édité),O.F. Normal,13190,,101,,9/7/2021,9/7/2021,9/7/2021,"1,000","1,000",,,,,Indéterminé,Indéterminé,Indéterminé,Indéterminé
