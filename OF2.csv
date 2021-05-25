@@ -1,12 +1,6 @@
 ## Contenu de la case
 # label: %Ordre_de_fabrication%
-## Style de la case
-## FillColor = rempliçage
-## StrokeColor =  contour
 # style: label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=black;
-## Parent style for nodes with child nodes (placeholders are replaced once).
-## parentstyle: swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;
-##
 # stylename:OF_de_pointage 
 # styles: {"Indéterminé":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#666666;",\
 #"Coché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#9900CC;strokeWidth=5;",\
@@ -16,11 +10,6 @@
 #"BRA":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=#FFE6CC;strokeColor=#666666;",\
 #"MON":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=#DAE8FC;strokeColor=#666666;"}
 ##
-# vars: -
-# labelname: -
-# labels: -
-# identity: -
-# parent: -
 # namespace: csvimport-
 # connect: {"from": "OF_Père", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
 # left: 
