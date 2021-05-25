@@ -1,8 +1,7 @@
 ## Contenu de la case
-# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libellé%</i>
+# label: %Ordre_de_fabrication%
 ##
 # namespace: csvimport-
-# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
 # left: 
 # top: 
 # width: auto
