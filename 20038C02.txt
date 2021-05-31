@@ -1,0 +1,56 @@
+ï»¿## Contenu de la case
+## Version 0.1
+## ----------------------------------------------AmÃ©liorations:----------------------------
+##Grafana tient compte uniquement du dernier stylename. Il est nÃ©cessaire de fusionner les 2 stylename OF_de_pointage et Atelier
+##
+##
+##
+##
+# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libelle%</i>
+##
+#stylename: OF_de_pointage 
+# styles: {"CochÃ©": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#2E73B8;", "DÃ©cochÃ©": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#D2D3D3;"}
+#stylename: Atelier
+# styles: {"CAB": "fillColor=#D5E8D4;strokeColor=#666666;dashed=0;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;", "BRA": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#FFE6CC;strokeColor=#666666;", "MON": "aspect=fixed;html=1;align=center;fontSize=12;fillColor=#DAE8FC;strokeColor=#666666;"}
+# namespace: csvimport-
+# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "endArrow=blockThin;curved=0;endFill=1;orthogonalLoop=1;jettySize=auto;html=1;"}
+# left: 
+# top: 
+# width: auto
+# height: auto
+# padding: 0
+# ignore:
+# link: url
+# nodespacing: 30
+# levelspacing: 80
+# edgespacing: 20
+## Name or JSON of layout. Possible values are auto, none, verticaltree, horizontaltree,verticalflow, horizontalflow, organic, circle or a JSON string as used in Layout, Apply.Default is auto.
+# layout: horizontalflow
+## ---- CSV below this line. First line are column names. ----
+,Mq,Ordre de fabrication,Article,Référence document,Libellé,Stade,Type,OF Père,Atelier,Dépôt,Date de début demandée,Date de fin demandée,Date de début  actuelle jalonnée,Date de fin actuelle jalonnée,Quantité lancée théorique,Quantité nette théorique,Quantité lancée réelle,Quantité nette réalisée,Quantité de rebut réalisée,Quantité de perte réalisée,Unité,Gestionnaire production,Plan,Priorité,Type  de  gestion,Ligne,Client,Client,Méthode de valorisation,Méthode de valorisation,N° de série,Année de création,Ann,Complet pour Fab,Fabrication en cours,Fabrication terminée,OF de pointage
+,,00013223,0000001047107,20038C02,CABLE COFFRET-GENE 20038,Lancé,O.F. Normal,00013189,CAB,0101,,09/07/2021,09/07/2021,09/07/2021,"8,000","8,000",,,,,PIE,François DUCLOUX,,,AFF,,,,,DEFAUT,,2021,Décoché,Coché,Indéterminé,Indéterminé,Indéterminé
+,,00013190,0000020038C02,20038C02,Coffret 3 Zones n°C7703 complément 1,Lancé,O.F. Normal,,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,Roland SCHURHAMMER,,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,6,00013189,20038C01-0001,20038C02,Coffret,Figé (édité),O.F. Normal,00013190,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0001,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,2,00013188,B000000765563,20038C02,Porte ouvrant à droite,Figé (édité),O.F. Normal,00013189,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0240,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,2,00013187,B000000765554,20038C02,Capot latéral,Figé (édité),O.F. Normal,00013189,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0220,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,2,00013186,B000000765496,20038C02,Capot arrière,Figé (édité),O.F. Normal,00013189,,0101,,09/07/2021,09/07/2021,09/07/2021,"2,000","2,000",,,,,PIE,François DUCLOUX,20038C01-0210,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,1,00013185,20038C01-0002,20038C02,Sous ensemble coffret sans capots,Lancé,O.F. Normal,00013189,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0002,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013184,20038C01-0040,20038C02,Module 1 zone,Lancé,O.F. Normal,00013185,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0040,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013183,20038C01-0076,20038C02,Plaque capas/inducteur équipée,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0076,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013182,B000000772337,20038C02,Plage de raccordement thyristors/capas,Figé (édité),O.F. Normal,00013183,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,B000000772337,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013181,B000000761504,20038C02,Plaque capas/inducteur,Figé (édité),O.F. Normal,00013183,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,B000000761504,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013180,20038C01-0077,20038C02,Plages Tansfo/Inducteur,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0077,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013179,B000000761651,20038C02,Plages Transfo/Inducteur,Figé (édité),O.F. Normal,00013180,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,B000000761651,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,1,00013178,20038C01-0110,20038C02,Connexion 0V isolée,Lancé,O.F. Normal,00013185,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0110,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013177,20038C01-0100,20038C02,Platine automatisme,Lancé,O.F. Normal,00013185,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0100,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Coché,Indéterminé,Indéterminé,Indéterminé
+,,00013176,B000000761711,20038C02,Connexion 0V,Figé (édité),O.F. Normal,00013178,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000761711,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013175,20038C01-0111,20038C02,Connexion plots équipée,Lancé,O.F. Normal,00013185,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0111,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013174,B000000761773,20038C02,Connexion plots transfo,Figé (édité),O.F. Normal,00013175,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000761773,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+Manquants,1,00013169,20038C01-0230,20038C02,Porte ouvrant à droite,Figé (édité),O.F. Normal,00013189,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,20038C01-0230,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé
+,,00013168,20038C01-0050,20038C02,Structure,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0050,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Coché,Indéterminé,Indéterminé,Indéterminé
+,,00013166,20038C01-0060,20038C02,Tansfo  équipé,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0060,,AFF,,00003777,ARIANEGROUP SAS,,DEFAUT,,2021,Décoché,Coché,Coché,Indéterminé,Indéterminé
+,,00013162,20038C01-0075,20038C02,Connexions plots transfo/thyristors,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0075,,AFF,,00003777,ARIANEGROUP SAS,,DEFAUT,,2021,Décoché,Coché,Coché,Indéterminé,Indéterminé
+,,00013161,20038C01-0070,20038C02,Condensateur équipé,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"6,000","6,000",,,,,PIE,François DUCLOUX,20038C01-0070,,AFF,,00003777,ARIANEGROUP SAS,,DEFAUT,,2021,Décoché,Coché,Coché,Indéterminé,Indéterminé
+,,00013155,20038C01-0080,20038C02,Platine électronique,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0080,,AFF,,00003777,ARIANEGROUP SAS,,DEFAUT,,2021,Décoché,Coché,Coché,Indéterminé,Indéterminé
+,,00013154,20038C01-0085,20038C02,Boitier mesure de puissance,Figé (édité),O.F. Normal,00013155,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0085,,AFF,,00003777,ARIANEGROUP SAS,OF,Coût de l'O.F. Pré-établi théo,,2021,Décoché,Coché,Coché,Indéterminé,Indéterminé
+,,00013152,20038C01-0095,20038C02,Commande thyristor,Lancé,O.F. Normal,00013184,,0101,,09/07/2021,09/07/2021,09/07/2021,"3,000","3,000",,,,,PIE,François DUCLOUX,20038C01-0095,,AFF,,00003777,ARIANEGROUP SAS,,DEFAUT,,2021,Décoché,Coché,Coché,Décoché,Indéterminé
