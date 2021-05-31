@@ -9,7 +9,7 @@
 # label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libelle%</i>
 ##
 #stylename: OF_de_pointage 
-# styles: {"CochÃ©": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#2E73B8;", "DÃ©cochÃ©": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#D2D3D3;"}
+# styles: {"Coché": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#2E73B8;", "Décoché": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#D2D3D3;"}
 #stylename: Atelier
 # styles: {"CAB": "fillColor=#D5E8D4;strokeColor=#666666;dashed=0;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;", "BRA": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#FFE6CC;strokeColor=#666666;", "MON": "aspect=fixed;html=1;align=center;fontSize=12;fillColor=#DAE8FC;strokeColor=#666666;"}
 # namespace: csvimport-
