@@ -1,28 +1,19 @@
-## Contenu de la case
-# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libellé%</i>
-## Style de la case
-## FillColor = rempliçage
-## StrokeColor =  contour
-# style: label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=black;
-## Parent style for nodes with child nodes (placeholders are replaced once).
-## parentstyle: swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;
+﻿## Contenu de la case
+## Version 0.1
+## ----------------------------------------------Améliorations:----------------------------
+##Grafana tient compte uniquement du dernier stylename. Il est nécessaire de fusionner les 2 stylename OF_de_pointage et Atelier
 ##
-# stylename:OF_de_pointage 
-# styles: {"Indéterminé":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#666666;",\
-#"Coché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#9900CC;strokeWidth=5;",\
-#"Décoché":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=white;strokeColor=#666666;"}
-# stylename:Atelier
-# styles: {"CAB":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=#D5E8D4;strokeColor=#666666;",\
-#"BRA":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=#FFE6CC;strokeColor=#666666;",\
-#"MON":"label;whiteSpace=wrap;html=1;rounded=2;fillColor=#DAE8FC;strokeColor=#666666;"}
 ##
-# vars: -
-# labelname: -
-# labels: -
-# identity: -
-# parent: -
+##
+##
+# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libelle%</i>
+##
+#stylename: OF_de_pointage 
+# styles: {"Coché": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#2E73B8;", "Décoché": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#D2D3D3;"}
+#stylename: Atelier
+# styles: {"CAB": "fillColor=#D5E8D4;strokeColor=#666666;dashed=0;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;", "BRA": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fillColor=#FFE6CC;strokeColor=#666666;", "MON": "aspect=fixed;html=1;align=center;fontSize=12;fillColor=#DAE8FC;strokeColor=#666666;"}
 # namespace: csvimport-
-# connect: {"from": "OF_Père", "to": "Ordre_de_fabrication", "invert": false, "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"}
+# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "endArrow=blockThin;curved=0;endFill=1;orthogonalLoop=1;jettySize=auto;html=1;"}
 # left: 
 # top: 
 # width: auto
@@ -30,8 +21,8 @@
 # padding: 0
 # ignore:
 # link: url
-# nodespacing: 20
-# levelspacing: 20
+# nodespacing: 30
+# levelspacing: 80
 # edgespacing: 20
 ## Name or JSON of layout. Possible values are auto, none, verticaltree, horizontaltree,verticalflow, horizontalflow, organic, circle or a JSON string as used in Layout, Apply.Default is auto.
 # layout: horizontalflow
